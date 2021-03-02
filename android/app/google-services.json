@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "619015544215",
+    "firebase_url": "https://mapos-1f8d8.firebaseio.com",
+    "project_id": "mapos-1f8d8",
+    "storage_bucket": "mapos-1f8d8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:619015544215:android:2d93b43bbabe6d282678d2",
+        "android_client_info": {
+          "package_name": "com.repeatclick.user"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "619015544215-2bf8kgg4sb4e6kph9am5rq155l9tarso.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBe_qTFZRP7EN-5fZQeHFjVTu2KwPZyWcY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "619015544215-2bf8kgg4sb4e6kph9am5rq155l9tarso.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

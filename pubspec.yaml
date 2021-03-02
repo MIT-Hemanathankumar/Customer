@@ -1,0 +1,166 @@
+name: user
+description: A new Flutter application.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  location_permissions: ^2.0.5
+  firebase_crashlytics: ^0.1.3+3
+
+  pull_to_refresh: ^1.5.7
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^0.1.3
+
+  sqflite: ^1.3.0
+  http: any
+  #multipart_request: ^0.3.0
+  synchronized: '>=2.0.2 <4.0.0'
+  path: '>=1.5.1 <3.0.0'
+  fluttertoast: ^3.1.3
+  progress_dialog: ^1.2.2
+  image_picker: ^0.6.7+2
+  shared_preferences: ^0.5.7+3
+  intl: ^0.16.1
+  smooth_star_rating: 1.1.0+1
+  path_provider: ^0.5.0
+  camera: ^0.5.8+2
+  flutter_image_compress: ^0.6.3
+  permission_handler: ^3.3.0
+  firebase_messaging: ^7.0.2
+  rxdart: ^0.23.1
+
+  redux: ^4.0.0
+  flutter_local_notifications: ^1.4.4+2
+  flutter_redux: ^0.6.0
+  redux_persist: ^0.8.3
+  flare_flutter: ^2.0.3
+  provider: ^4.1.3
+  scoped_model: ^1.0.1
+  moor_flutter: ^2.1.1
+  simple_animations: ^1.3.4
+  #permission_handler_platform_interface: ^2.0.1
+  #permission: ^0.1.7
+  flutter_rounded_date_picker: 1.0.4
+  #flutter_datetime_picker: ^1.3.8
+  connectivity: ^0.4.9
+  share: ^0.6.5
+  url_launcher: ^5.5.3
+  flutter_picker_view: ^1.1.0
+
+
+  flutter_launcher_icons: ^0.7.5
+  flutter_launcher_name: ^0.0.1
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  #android: true
+  image_path: "assets/app_icon_new.png"
+  image_path_android: "assets/app_icon_new.png"
+  image_path_ios: "assets/app_icon_new.png"
+  adaptive_icon_background: "assets/app_icon_new.png"
+
+flutter_launcher_name:
+  name: "Repeat Click"
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+
+  assets:
+    - assets/splash.png
+    - assets/delivery_icon.png
+    - assets/history_icon.png
+    - assets/location_icon.png
+    - assets/report_icon.png
+    - assets/calendar.png
+    - assets/app_logo_new.png
+    - assets/app_icon.png
+    - assets/profile_icon.png
+    - assets/delivery_done.png
+    - assets/not_delivery.png
+    - assets/dot.png
+    - assets/report_white.png
+    - assets/history_white.png
+    - assets/location_white.png
+    - assets/place_order.png
+    - assets/home.png
+    - assets/chat.png
+    - assets/call.png
+    - assets/place_order_black.png
+    - assets/profile_banner.png
+    - assets/add.png
+    - assets/camera.png
+    - assets/tick.png
+    - assets/images/drug.png
+    - assets/images/emergency.png
+    - assets/images/inhaler.png
+    - assets/images/man_avatar.png
+    - assets/images/ointment.png
+    - assets/images/pill.png
+    - assets/images/pill_rounded.png
+    - assets/images/syringe.png
+    - assets/notify.png
+    - assets/sound/ios_notify.mp3
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+  # To add assets to your application, add an assets section, like this:
+
+  #   - images/a_dot_ham.jpeg
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware.
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
